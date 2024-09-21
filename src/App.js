@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';         // Header component
+import Projects from './components/Projects';     // Projects component (with ProjectCard)
+import Contact from './components/Contact';        // Contact component
+import Footer from './components/Footer';          // Footer component
+import Navbar from './components/Navbar';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App flex flex-col min-h-screen">
+        <Navbar />
+        {/* Home page with all components */}
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Header />
+                <AboutMe />
+                <Projects />
+                <Contact />
+              </>
+            } />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
