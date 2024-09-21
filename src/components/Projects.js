@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'React Project',
       description: 'Portfolio Website',
       imageUrl: work1,
-      projectLink: 'https://urspandu.ccbp.tech/',
+      projectLink: 'https://react-portfolio.dharsh.live/',
     },
     {
       title: 'JavaScript Project',
