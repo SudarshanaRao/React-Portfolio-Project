@@ -48,6 +48,12 @@ const Projects = () => {
       imageUrl: work6,
       projectLink: 'https://gamingjs.ccbp.tech/',
     },
+    {
+      title: 'React Meme Generator',
+      description: 'Meme Generator',
+      imageUrl: work7,
+      projectLink: 'https://dharshmeme.ccbp.tech/',
+    },
   ];
 
   const handleShowMore = () => {
