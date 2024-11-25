@@ -35,7 +35,7 @@ const Projects = () => {
       title: 'JavaScript Project',
       description: 'Guessing Game',
       imageUrl: work2,
-      projectLink: 'https://pandu07.ccbp.tech/',
+      projectLink: 'https://dharshguessgame.ccbp.tech/',
     },
     {
       title: 'Tailwind CSS',
