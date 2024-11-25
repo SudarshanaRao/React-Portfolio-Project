@@ -3,7 +3,7 @@ import ProjectsCard from './ProjectsCard';
 import work1 from '../images/work-1.png';
 import work2 from '../images/work-2.png';
 import work3 from '../images/work-3.png';
-import work4 from '../images/work-4.png';
+import work4 from '../images/Work-4.png';
 import work5 from '../images/work-5.png'; // Additional project image
 import work6 from '../images/work-6.png'; // Additional project image
 import rightArrow from '../images/right-arrow-bold.png';
@@ -34,7 +34,7 @@ const Projects = () => {
       title: 'React Project',
       description: 'Todo Application',
       imageUrl: work4,
-      projectLink: 'https://react-todo.dharsh.live/',
+      projectLink: 'https://todo.dharsh.live/',
     },
     {
       title: 'Frontend Project',
