@@ -20,18 +20,6 @@ const Projects = () => {
       projectLink: 'https://react-portfolio.dharsh.live/',
     },
     {
-      title: 'JavaScript Project',
-      description: 'Guessing Game',
-      imageUrl: work2,
-      projectLink: 'https://pandu07.ccbp.tech/',
-    },
-    {
-      title: 'Tailwind CSS',
-      description: 'Netflix Clone',
-      imageUrl: work3,
-      projectLink: 'https://dharshnetflix.ccbp.tech/',
-    },
-    {
       title: 'React Project',
       description: 'Todo Application',
       imageUrl: work4,
@@ -42,6 +30,18 @@ const Projects = () => {
       description: 'Food Munch',
       imageUrl: work5,
       projectLink: 'https://urspandu.ccbp.tech/',
+    },
+    {
+      title: 'JavaScript Project',
+      description: 'Guessing Game',
+      imageUrl: work2,
+      projectLink: 'https://pandu07.ccbp.tech/',
+    },
+    {
+      title: 'Tailwind CSS',
+      description: 'Netflix Clone',
+      imageUrl: work3,
+      projectLink: 'https://dharshnetflix.ccbp.tech/',
     },
     {
       title: 'JavaScript Project',
