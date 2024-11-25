@@ -6,7 +6,7 @@ import work3 from '../images/work-3.png';
 import work4 from '../images/Work-4.png';
 import work5 from '../images/work-5.png'; // Additional project image
 import work6 from '../images/work-6.png';
-import work7 from '../images/work-7.png';// Additional project image
+import work7 from '../images/work7.png';// Additional project image
 import rightArrow from '../images/right-arrow-bold.png';
 
 const Projects = () => {
